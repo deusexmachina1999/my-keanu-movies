@@ -80,10 +80,9 @@ nav {
 
 nav a {
     display:flex;
-    width:fit-content;
+    width: fit-content;
     font-weight: bold;
     margin: 1px;
     padding: 1px 5px;
     text-decoration: none;
-    
 }
