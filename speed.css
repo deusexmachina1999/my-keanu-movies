@@ -1,0 +1,83 @@
+header {
+    background-color:darkred;
+    color:black;
+    text-align: center;
+    size: 5px;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 5px;
+}
+
+body {
+    margin: 0%;
+}
+
+
+#btea {
+    border: 2px solid;
+    color:black;
+    background-color:salmon;
+    transition: 200ms linear;
+}
+
+#index {
+    border: 2px solid;
+    color:black;
+    background-color:lightgoldenrodyellow;
+    transition: 200ms linear;
+}
+
+#pb {
+    border: 2px solid;
+    color:blue;
+    background-color:orange;
+    transition: 200ms linear;
+}
+
+#matrix {
+    border: 2px solid;
+    color:darkgreen;
+    background-color:black;
+    transition: 200ms linear;
+}
+
+#john {
+    border: 2px solid;
+    color:gold;
+    background-color:darkslategray;
+    transition: 200ms linear;
+}
+
+#wick {
+    border: 2px solid;
+    color:lavender;
+    background-color:midnightblue;
+    transition: 200ms linear;
+}
+
+nav {
+    background-color:tan;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    display: block;
+    font-weight: bold;
+    margin: 1px;
+    padding: 1px 5px;
+    text-decoration: none;
+}
+
+body {
+    background-color:tan;
+}
+
+h2 {
+    text-align: center;
+}
