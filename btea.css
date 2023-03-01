@@ -1,6 +1,6 @@
 header {
-    background-color:darkgreen;
-    color:black;
+    background-color:darkblue;
+    color:hotpink;
     text-align: center;
     size: 5px;
     width: 100%;
@@ -14,11 +14,10 @@ body {
     margin: 0%;
 }
 
-
-#btea {
+#pb {
     border: 2px solid;
-    color:darkblue;
-    background-color:hotpink;
+    color:blue;
+    background-color:orange;
     transition: 200ms linear;
 }
 
@@ -29,10 +28,10 @@ body {
     transition: 200ms linear;
 }
 
-#pb {
+#matrix {
     border: 2px solid;
-    color:blue;
-    background-color:orange;
+    color:darkgreen;
+    background-color:black;
     transition: 200ms linear;
 }
 
@@ -58,12 +57,12 @@ body {
 }
 
 nav {
-    background-color:black;
+    background-color:hotpink;
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
     flex-wrap:wrap;
-    border-bottom: 2px solid darkgreen;
+    border-bottom: 2px solid darkblue;
 }
 
 nav a {
@@ -75,40 +74,40 @@ nav a {
 }
 
 body {
-    background-image: url("matrixbackground.jpg");
+    background-image: url("bteaback.jpg");
 }
 
 h2 {
     text-align: center;
-    color: darkgreen;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: black;
-    border: 2px solid darkgreen;
+    background-color:hotpink;
+    border: 2px solid darkblue;
+    color:darkblue;
 }
 
 img {
     display: block;
-    width: fit-content; 
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    background-color:black;
-    border: 2px solid darkgreen;
+    background-color:hotpink;
+    border: 2px solid darkblue;
 }
 
 ul {
     padding: 15px;
-    background-color:black;
-    border: 2px solid darkgreen;
-    color:darkgreen;
+    background-color:hotpink;
+    border: 2px solid darkblue;
+    color:darkblue;
 }
 
 #sum {
     padding: 15px;
-    background-color:black;
-    border: 2px solid darkgreen;
-    color: darkgreen;
+    background-color:hotpink;
+    border: 2px solid darkblue;
+    color: darkblue;
 }

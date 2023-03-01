@@ -1,6 +1,6 @@
 header {
-    background-color:orange;
-    color:blue;
+    background-color:gold;
+    color:darkslategray;
     text-align: center;
     size: 5px;
     width: 100%;
@@ -17,8 +17,8 @@ body {
 
 #btea {
     border: 2px solid;
-    color:black;
-    background-color:salmon;
+    color:darkblue;
+    background-color:hotpink;
     transition: 200ms linear;
 }
 
@@ -58,12 +58,12 @@ body {
 }
 
 nav {
-    background-color:orange;
+    background-color:darkslategray;
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
     flex-wrap:wrap;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid gold;
 }
 
 nav a {
@@ -84,27 +84,31 @@ h2 {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: orange;
-    border: 2px solid blue;
+    background-color: darkslategray;
+    border: 2px solid gold;
+    color: gold;
 }
 
 img {
-    text-align: center;
     padding: 15px;
-    background-color:orange;
-    border: 2px solid blue;
+    background-color:darkslategray;
+    border: 2px solid gold;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto
 }
 
 ul {
     padding: 15px;
-    background-color:orange;
-    border: 2px solid blue;
-    color:blue;
+    background-color:darkslategray;
+    border: 2px solid gold;
+    color:gold;
 }
 
 #sum {
     padding: 15px;
-    background-color:orange;
-    border: 2px solid blue;
-    color: blue;
+    background-color:darkslategray;
+    border: 2px solid gold;
+    color: gold;
 }
