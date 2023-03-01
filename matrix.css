@@ -1,6 +1,6 @@
 header {
-    background-color:darkred;
-    color:tan;
+    background-color:black;
+    color:darkgreen;
     text-align: center;
     size: 5px;
     width: 100%;
@@ -36,10 +36,10 @@ body {
     transition: 200ms linear;
 }
 
-#matrix {
+#speed {
     border: 2px solid;
-    color:darkgreen;
-    background-color:black;
+    color:darkred;
+    background-color:tan;
     transition: 200ms linear;
 }
 
@@ -58,12 +58,12 @@ body {
 }
 
 nav {
-    background-color:tan;
+    background-color:black;
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
     flex-wrap:wrap;
-    border-bottom: 2px solid darkred;
+    border-bottom: 2px solid darkgreen;
 }
 
 nav a {
@@ -75,7 +75,7 @@ nav a {
 }
 
 body {
-    background-image: url("speedbackground.jpg");
+    background-image: url("matrixbackground.jpg");
 }
 
 h2 {
@@ -84,27 +84,27 @@ h2 {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: tan;
-    border: 2px solid darkred;
+    background-color: black;
+    border: 2px solid darkgreen;
 }
 
 img {
     text-align: center;
     padding: 15px;
-    background-color: tan;
-    border: 2px solid darkred;
+    background-color:black;
+    border: 2px solid darkgreen;
 }
 
 ul {
     padding: 15px;
-    background-color: tan;
-    border: 2px solid darkred;
-    color:darkred;
+    background-color:black;
+    border: 2px solid darkgreen;
+    color:darkgreen;
 }
 
 p {
     padding: 15px;
-    background-color: tan;
-    border: 2px solid darkred;
-    color: darkred;
+    background-color:black;
+    border: 2px solid darkgreen;
+    color: darkgreen;
 }
