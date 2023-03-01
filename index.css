@@ -79,8 +79,7 @@ nav {
 }
 
 nav a {
-    display:flex;
-    width: fit-content;
+    display: block;
     font-weight: bold;
     margin: 1px;
     padding: 1px 5px;
